@@ -32,5 +32,7 @@ public class UserController {
     public void postUser(@RequestBody User user) {
         repository.save(user);
     }
+    @PutMapping("/users")
+    public void put(@RequestBody User user) {repository.update(user);}
 
 }

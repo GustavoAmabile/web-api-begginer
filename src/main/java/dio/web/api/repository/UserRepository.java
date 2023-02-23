@@ -35,4 +35,7 @@ public class UserRepository {
         System.out.println(String.format("FIND/username - Recebendo o usernamae: %s para localizar um usuário", username));
         return new User("gleyson","password");
     }
+    public void update(User user) {
+        System.out.println("UPDATE - Recebendo o usuário na camada de repositório");
+    }
 }
