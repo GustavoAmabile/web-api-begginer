@@ -1,4 +1,4 @@
-package dio.web.api;
+package dio.web.api.doc;
 
 
 
